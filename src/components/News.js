@@ -281,7 +281,7 @@ export class News extends Component {
         <div className="row">
          {this.ariticles.map((element)=>{
             return <div className="col-md-4" key = {element.url}>
-                <NewsItem  title={element.title} discription ={element.description} imgUrl = {element.urlToImage} newsUrl ={element.url} />
+                <NewsItem  title={element.title? element.title.slice(0,45):" "} discription ={element.discription? element.description.slice(0,90): " "} imgUrl = {element.urlToImage} newsUrl ={element.url} />
             </div>
 
         })}
