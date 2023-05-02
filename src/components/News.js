@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 
 export class News extends Component {
-    ariticles = [
+    articles = [
         {
           "source": {
             "id": null,
@@ -67,210 +67,25 @@ export class News extends Component {
           "urlToImage": "https://i.insider.com/644ddbb5da6d7b0019bdbaac?width=1200&format=jpeg",
           "publishedAt": "2023-04-30T03:20:00Z",
           "content": "The days of expensive commercial budgets, large teams of creatives and actors putting together scenes, and time-consuming delays over visual effects will soon be over. Maybe.\r\nAt a time when chatbots… [+5902 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "YouTube"
-          },
-          "author": null,
-          "title": "President Biden complete remarks at 2023 White House Correspondents' Dinner (C-SPAN) - C-SPAN",
-          "description": "From C-SPAN coverage, President Biden remarks at the 2022 White House Correspondents' Dinner.   Watch the complete video here: https://www.c-span.org/2023-Wh...",
-          "url": "https://www.youtube.com/watch?v=bDZ1H4ABmiU",
-          "urlToImage": "https://i.ytimg.com/vi/bDZ1H4ABmiU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgXihLMA8=&rs=AOn4CLDlILjuVZLE8QAN7j0J8g9WJ9BCPQ",
-          "publishedAt": "2023-04-30T03:13:06Z",
-          "content": null
-        },
-        {
-          "source": {
-            "id": "independent",
-            "name": "Independent"
-          },
-          "author": "Andrea Blanco",
-          "title": "Texas shooting – live: Gunman who killed five with AR-15 over noise complaint surrounded by Cleveland police - The Independent",
-          "description": "texas shooting updates",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/texas-shooting-cleveland-today-san-jacinto-b2329494.html",
-          "urlToImage": "https://static.independent.co.uk/2023/04/29/18/SEI153887682%20copy.jpg?quality=75&width=1200&auto=webp",
-          "publishedAt": "2023-04-30T03:00:46Z",
-          "content": "Sign up to our free US news bulletin sent straight to your inbox each weekday morning\r\nSign up to our free morning US email news bulletin\r\nAuthorities have cornered the suspect in a deadly shooting a… [+7641 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "Nintendo Life"
-          },
-          "author": "Liam Doolan",
-          "title": "Mario Movie Crosses $1 Billion Mark At The Global Box Office This Weekend - Nintendo Life",
-          "description": "It's achieved this milestone in less than a month!",
-          "url": "https://www.nintendolife.com/news/2023/04/mario-movie-crosses-usd1-billion-mark-at-the-global-box-office-this-weekend",
-          "urlToImage": "https://images.nintendolife.com/f3ed45a4e17c9/1280x720.jpg",
-          "publishedAt": "2023-04-30T02:05:00Z",
-          "content": "As I've said before, it's a HUGE reversal of fortune for Nintendo-based movies. After the failure of the 1993 Mario movie, Nintendo was very hesitant to make any more movies based on their games (eve… [+695 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "YouTube"
-          },
-          "author": null,
-          "title": "BIGGEST WINNERS & LOSERS From The 2023 NFL Draft I CBS Sports - CBS Sports",
-          "description": "Rick Spielman and Ryan Wilson join CBS Sports HQ to give their biggest winners & losers from the 2023 NFL Draft.SUBSCRIBE TO OUR CHANNEL:https://www.youtube....",
-          "url": "https://www.youtube.com/watch?v=pji-gFxg6jQ",
-          "urlToImage": "https://i.ytimg.com/vi/pji-gFxg6jQ/maxresdefault.jpg",
-          "publishedAt": "2023-04-30T02:04:06Z",
-          "content": null
-        },
-        {
-          "source": {
-            "id": "fox-news",
-            "name": "Fox News"
-          },
-          "author": "Adam Sabes",
-          "title": "Army releases identities of soldiers killed in Alaska helicopter crash - Fox News",
-          "description": "The Army has released the identities of three soldiers killed earlier in the week in a helicopter crash, and say a fourth person was injured.",
-          "url": "https://www.foxnews.com/us/army-releases-identities-soldiers-killed-alaska-helicopter-crash",
-          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/04/HELICOPTERS.jpg",
-          "publishedAt": "2023-04-30T01:21:00Z",
-          "content": "The Army has released the identities of the three soldiers killed on Thursday in a helicopter crash.\r\nTwo AH-64 Apache helicopters collided in midair on Thursday near Healy, Alaska and left three sol… [+2016 chars]"
-        },
-        {
-          "source": {
-            "id": "nfl-news",
-            "name": "NFL News"
-          },
-          "author": "Gregg Rosenthal",
-          "title": "2023 NFL Draft Debrief: AFC South, Steelers, Geno Smith up; veteran trade market, rumor mill down - NFL.com",
-          "description": "Could the Seahawks have done any better to set Geno Smith up for success? Where do the Broncos stand after all the picks in the Russell Wilson trade were made? Gregg Rosenthal identifies who's up and who's down after the conclusion of the 2023 NFL Draft.",
-          "url": "https://www.nfl.com/news/2023-nfl-draft-debrief-afc-south-steelers-geno-smith-up-veteran-trade-market-rum",
-          "urlToImage": "https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/hcmgl91kbkrrcynqg0ck",
-          "publishedAt": "2023-04-30T01:04:00Z",
-          "content": "The Colts are even more exciting. I can't imagine Richardson sitting behind Gardner Minshew for long, if at all. (Colts owner Jim Irsay seemingly admitted as much to NFL.com's Judy Battista.) Head co… [+4695 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "Dark Horizons"
-          },
-          "author": "Garth Franklin",
-          "title": "Chris Pratt Talks Failed Marvel Auditions - Dark Horizons",
-          "description": "Chris Pratt is set to dominate the box office next weekend with the former “Parks and Recreation” actor serving as the leading man of both the ongoing success story that is “The Super Mario Bros. Movie,” and as Star-Lord in Marvel’s “Guardians of The Galaxy V…",
-          "url": "https://www.darkhorizons.com/chris-pratt-talks-failed-marvel-auditions/",
-          "urlToImage": "https://cdndh.darkhorizons.com/wp-content/uploads/2023/04/chris-pratt-talks-failed-marvel-auditions.jpg",
-          "publishedAt": "2023-04-30T00:33:08Z",
-          "content": "Chris Pratt is set to dominate the box office next weekend with the former “Parks and Recreation” actor serving as the leading man of both the ongoing success story that is “The Super Mario Bros. Mov… [+2166 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "New York Post"
-          },
-          "author": "Katherine Donlevy",
-          "title": "FDIC races to find buyer for collapsing First Republic Bank: report - New York Post ",
-          "description": "Federal regulators are scrambling to find a buyer for First Republic Bank as the banking company’s stocks continue to tumble, according to sources.",
-          "url": "https://nypost.com/2023/04/29/fdic-races-to-find-buyer-for-collapsing-first-republic-bank/",
-          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/04/first-republic-bank.jpg?quality=75&strip=all&1682798860&w=1024",
-          "publishedAt": "2023-04-30T00:27:00Z",
-          "content": "Federal regulators are scrambling to find a buyer for First Republic Bank as the banking company’s stock continue to tumble, according to a report.\r\nThe Federal Deposit Insurance Corp. has asked seve… [+2095 chars]"
-        },
-        {
-          "source": {
-            "id": "reuters",
-            "name": "Reuters"
-          },
-          "author": null,
-          "title": "Russia pledges harsh response after Polish 'seizure' of embassy school - Reuters",
-          "description": "Russia on Saturday promised it would respond harshly to what it said was Poland's illegal seizure of its embassy school in Warsaw, an act it called a flagrant violation of the Vienna Convention on diplomatic relations.",
-          "url": "https://www.reuters.com/world/europe/russia-lodge-official-protest-over-seizure-embassy-school-warsaw-2023-04-29/",
-          "urlToImage": "https://www.reuters.com/resizer/Y6LWfiNqExnoFDEn9RTk66A1-S4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7WPNBCAAORP4FKRT33Q3AEQNRY.jpg",
-          "publishedAt": "2023-04-30T00:07:00Z",
-          "content": "MOSCOW, April 29 (Reuters) - Russia on Saturday promised it would respond harshly to what it said was Poland's illegal seizure of its embassy school in Warsaw, an act it called a flagrant violation o… [+2367 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "Baltimore Beatdown"
-          },
-          "author": "Kyle P Barber",
-          "title": "Baltimore Ravens 2023 Undrafted Free Agency Tracker - Baltimore Beatdown",
-          "description": "Every rumor and signing all in one place",
-          "url": "https://www.baltimorebeatdown.com/2023/4/29/23704258/2023-baltimore-ravens-undrafted-free-agency-tracker-udfa-news-signings-workouts-nfl",
-          "urlToImage": "https://cdn.vox-cdn.com/thumbor/2VjUPmgBF2pFzYWK3VMYZTDTLZg=/0x0:4249x2225/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24620731/1238935771.jpg",
-          "publishedAt": "2023-04-29T22:49:07Z",
-          "content": "Though the 2023 NFL draft has found its conclusion, the hunt for the best undrafted free agents begins. The Ravens are a team that deeply value UDFAs to fill roles and holes in their roster.\r\nLast se… [+1777 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "YouTube"
-          },
-          "author": null,
-          "title": "Sacramento Kings head coach Mike Brown previews Sunday's Game 7 vs. Golden State Warriors - FOX40 News",
-          "description": "Kings head coach Mike Brown reflects on Friday's Game 6 win over the Warriors to even their opening round playoff series, being able to host a Game 7 in Sacr...",
-          "url": "https://www.youtube.com/watch?v=a5Q4mfbySn0",
-          "urlToImage": "https://i.ytimg.com/vi/a5Q4mfbySn0/maxresdefault.jpg",
-          "publishedAt": "2023-04-29T21:46:26Z",
-          "content": null
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "PBS"
-          },
-          "author": null,
-          "title": "Why allergy season is extra bad this year - PBS NewsHour",
-          "description": "Allergy season got a jump start this year and has been more intense all over the country, especially in the North and Southeast. Ali Rogin speaks with Theresa Crimmins, director of the National Phenology Network, and Dr. Stanley Fineman, an allergist and edit…",
-          "url": "https://www.pbs.org/newshour/show/its-not-your-imagination-allergy-season-is-extra-bad-this-year-heres-why",
-          "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2023/04/Allergy-1024x683.jpg",
-          "publishedAt": "2023-04-29T21:35:12Z",
-          "content": "Allergy season got a jump start this year and has been more intense all over the country, especially in the North and Southeast. Ali Rogin speaks with Theresa Crimmins, director of the National Pheno… [+191 chars]"
-        },
-        {
-          "source": {
-            "id": "fox-news",
-            "name": "Fox News"
-          },
-          "author": "Andrea Vacchiano",
-          "title": "California man found guilty of murdering teens who ding-dong ditched his house - Fox News",
-          "description": "Riverside County resident Anurag Chandra was found guilty of killing three teenage boys who played ding-dong ditch at his house. Chandra had rammed their car into a tree after the prank.",
-          "url": "https://www.foxnews.com/us/california-man-found-guilty-murdering-teens-ding-dong-ditched-house",
-          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/04/Untitled-design-41.png",
-          "publishedAt": "2023-04-29T21:11:00Z",
-          "content": "A California man was recently found guilty of killing three teenage boys who played ding-dong ditch at his house in 2020.\r\nRiverside County resident Anurag Chandra was found guilty of three counts of… [+1734 chars]"
-        },
-        {
-          "source": {
-            "id": null,
-            "name": "Page Six"
-          },
-          "author": "Eileen Reslen, Leah Bitsky",
-          "title": "Sydney Sweeney, fiancé Jonathan Davino go on date night amid Glen Powell drama - Page Six",
-          "description": "The couple went on a rare outing together in New York City Friday night. However, the “Euphoria” star was still not wearing her engagement ring.",
-          "url": "https://pagesix.com/2023/04/29/sydney-sweeney-jonathan-davino-go-on-date-amid-glen-powell-drama/",
-          "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2023/04/Sydney-Sweeney-fiancé-Jonathan-Davino-shut-down-Glen-Powell-romance-buzz-with-date-night.jpg?quality=75&strip=all&w=1200",
-          "publishedAt": "2023-04-29T20:19:00Z",
-          "content": "Sydney Sweeney and her fiancé, Jonathan Davino, shut down speculation that their relationship is on the rocks by stepping out together Friday night.\r\nThe couple were photographed in photos obtained b… [+3328 chars]"
-        },
-        {
-          "source": {
-            "id": "business-insider",
-            "name": "Business Insider"
-          },
-          "author": "Katie Balevic",
-          "title": "Bud Light faced a backlash over its campaign with a trans influencer. But a poll finds a majority of American beer drinkers support such campaigns. - Yahoo News",
-          "description": "A majority of respondents had favorable responses to brands partnering with trans personalities. Even more said they wanted brands to hire more inclusively.",
-          "url": "https://www.businessinsider.com/poll-majority-american-beer-drinkers-support-trans-rights-bud-light-2023-4",
-          "urlToImage": "https://i.insider.com/644d6e43da6d7b0019bdb971?width=1200&format=jpeg",
-          "publishedAt": "2023-04-29T19:54:57Z",
-          "content": "Despite a recent backlash, a majority of US beer drinkers appear to approve of brands partnering with transgender personalities. \r\nThat's according to a new poll by Morning Consult that surveyed 4,40… [+1837 chars]"
         }
+       
       ]
     constructor(){
         super();
         console.log("hello im constructor from news component");
         this.state = {
-            articles: this.ariticles,
+            articles: this.articles,
             loading : false 
         }
+    }
+
+    async componentDidMount(){
+        console.log("cdm");
+        let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=8ef999af2b1a4df3b547aae291e81fa9";
+        let data = await fetch(url);
+        let parsedData = await data.json();
+        console.log(parsedData);
+        this.setState({articles: parsedData.articles});
     }
 
 
@@ -279,7 +94,7 @@ export class News extends Component {
       <div className="container my-3">
         <h2>NewsPanda - Top headlines</h2>
         <div className="row">
-         {this.ariticles.map((element)=>{
+         {this.articles.map((element)=>{
             return <div className="col-md-4" key = {element.url}>
                 <NewsItem  title={element.title? element.title.slice(0,45):" "} discription ={element.discription? element.description.slice(0,90): " "} imgUrl = {element.urlToImage} newsUrl ={element.url} />
             </div>
